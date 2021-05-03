@@ -1,0 +1,144 @@
+<html>
+<head>
+<style type="text/css">
+.first button{
+	background-color:orange;
+	width:120px;
+	height:65px;
+	border-radius:30px;
+	border:4px dotted blue;
+
+	}
+.first a{
+	text-decoration:none;
+	font-size:25px;
+	}
+.first{
+	background-color:black;
+	height:65px;
+	}
+body{
+	background-color:black;
+	background-repeat: no-repeat;
+   background-position: top 140px left 0px;
+   animation:gopu 20s linear infinite;
+}
+@keyframes gopu{
+	0%{
+		background-color:black;
+		}
+	10%{
+		background-color:yellow;
+        }
+       20%{
+       	background-color:green;
+       }
+       30%{
+       	background-color:orange;
+       }
+       40%{
+       	background-color:black;
+       }
+       50%{
+       	background-color:blue;
+       }
+       60%{
+       	background-color:grey;
+       }
+       70%{
+       	background-color:red;
+       }
+       80%{
+       	background-color:pink;
+       }
+       90%{
+       	background-color:silver;
+       }
+       100%{
+       	background-color:black;
+       }
+   }
+.gopal{
+	width:80px;
+	height:107px;
+	background:url(panda.png);
+	animation:walk 1s steps(6) infinite,
+	                     forward 10s linear infinite;
+	margin-top:75px;
+	}
+@keyframes walk{
+	0%{
+		background-position:511px;
+		}
+	100%{
+		background-position:0pc;
+		}
+}
+@keyframes forward{
+	0%{
+		transform:translatex(-80px);
+		}
+	100%{
+		transform:translatex(920px);
+		}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="first">
+	<button style="margin-left:165px;"><a href="index.html">HOME</a></button>
+	<button style="width:120px;margin-left:45px;"><a href="about.html">ABOUT</a></button>
+	<button style="margin-left:45px;"><a href="movies.html">MOVIES</a></button>
+	<button style="margin-left:45px;"><a href="https://lastbenchers725.blogspot.com/?m=1">FUNNY</a></button>
+	
+	
+		<p style="font-size:46px;margin-left:65px;margin-top:5px;background-color:gold;max-width:820px;"><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspL&nbsp&nbspA&nbsp&nbspS&nbsp&nbspT&nbsp&nbsp&nbspB&nbsp&nbspE&nbsp&nbspN&nbsp&nbspC&nbsp&nbspH&nbsp&nbspE&nbsp&nbspR&nbsp&nbspS</b></p>
+	<button style="margin-left:845px;margin-top:-135px;"><a href="chat.html">CHAT</a></button>
+	<button style="margin-left:0px;margin-top:-135px;"><a href="notes.html">NOTES</a></button>
+</div>
+
+  
+     	<div class="gopal"></div>
+     
+     <br>
+     	
+    
+  
+   
+   	<p style="font-size:50px;margin-left:65px;margin-top:0px;max-width:820px;"><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>ABOUT</b></b></p>
+        <div id="demo" style="width: 980px; height: 750px; background-color: gold;margin-top:-55px;overflow-y:auto;font-size:30px;"><b>Name<br><br><br>Rahul<br>Santhosh<br>Maruti<br>Darshan<br>Akshay<br>Naveen<br>Manoj<br>Abhishek<br>Sandeep<br>Gopal<br><br><hr>Type<br><br><br>Everyone is Student<br><br><hr>Hobby<br><br><br>driving<br>drawing<br>kabbadi<br>cricket<br>songs writting<br>Ragging<br>website developer<br>hacking<br>application developer<br><br><hr><br>Contact  Us<br><br><br>lastbenchers725@gmail.com<br><br><br></a></b></div>
+   <button type="button" style="width:120px;height:65px;background-color:orange;margin-left:150px;margin-top:2px;border-radius:30px;border:4px dotted blue;font-size:25px;" onclick="show()"> open </button>
+   <button type="button"style="width:120px;height:65px;background-color:orange;margin-left:400px;margin-top:2px;border-radius:30px;border:4px dotted blue;font-size:25px;" onclick="hide()"> close </button>
+
+   <script>
+      function show() {
+         document.getElementById("demo").style.display = "block";
+      }
+      function hide() {
+         document.getElementById("demo").style.display = "none";
+      }
+   </script>
+    
+     
+
+   
+      
+   
+ 
+   
+
+	
+		
+	
+	
+
+</body>
+</html>
+		
+		
